@@ -13,9 +13,9 @@ export const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            <button className="btn text-light" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
-                            <button className="btn text-light" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                            <a className="nav-link active" aria-current="page" href="">Home</a>
+                            <a className="nav-link active" href="" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</a>
+                            <a className="nav-link active" href="" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
                         </div>
                     </div>
                 </div>

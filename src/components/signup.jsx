@@ -10,15 +10,15 @@ export const Signup = () => {
                     <div className="modal-body">
                         <form>
                             <div className="mb-3">
-                                <input type="text" className="form-control mb-3" id="recipient-name" placeholder="Full Name" />
-                                <input type="text" className="form-control mb-3" id="recipient-name" placeholder="Email" />
-                                <input type="text" className="form-control mb-3" id="recipient-name" placeholder="Password" />
+                                <input type="text" className="form-control mb-3" id="fullName" placeholder="Full Name" />
+                                <input type="text" className="form-control mb-3" id="email" placeholder="Email" />
+                                <input type="text" className="form-control mb-3" id="password" placeholder="Password" />
                             </div>
                         </form>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" className="btn btn-primary">Create Account</button>
+                        <button type="button" className="btn btn-success">Create Account</button>
                     </div>
                 </div>
             </div>
