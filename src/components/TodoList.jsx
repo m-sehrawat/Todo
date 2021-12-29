@@ -1,5 +1,6 @@
-export const TodoList = () => {
+export const TodoList = ({ title, status, id }) => {
+    
     return (
-        <div>TodoInput</div>
+        <div>{title}</div>
     );
 };

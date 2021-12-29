@@ -1,11 +1,14 @@
+import { useState } from "react";
 
 
-export const TodoInput = () => {
+export const TodoInput = ({ getData }) => {
 
-    return(
+    const [text, setText] = useState("");
+
+    return (
         <div className="input-group appBox">
-            <input className="form-control" type="text" placeholder="Type your task here" />
-            <button className="btn btn-outline-success">Add Task</button>
+            <input onChange={(e) => setText(e.target.value)} className="form-control" type="text" placeholder="Type your task here" />
+            <button onClick={() => getData(text)} className="btn btn-outline-success">Add Task</button>
         </div>
     );
 };

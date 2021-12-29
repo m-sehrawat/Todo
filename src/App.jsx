@@ -8,8 +8,6 @@ function App() {
         <>
             <Navbar />
 
-            {/* <Signup /> */}
-
             <div className='mainBox'>
                 <Todo />
             </div>
