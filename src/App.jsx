@@ -1,13 +1,19 @@
 import './App.css';
 import { Todo } from './components/Todo';
+import { Navbar } from './components/navbar';
+import { Signup } from './components/signup';
 
 function App() {
     return (
-        <div className='mainBox'>
+        <>
+            <Navbar />
 
-            <Todo />
+            {/* <Signup /> */}
 
-        </div>
+            <div className='mainBox'>
+                <Todo />
+            </div>
+        </>
     );
 }
 
